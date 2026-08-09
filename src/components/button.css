@@ -1,0 +1,44 @@
+
+.buttonContainer {
+  position: relative; 
+  padding: 12px 24px;
+  background-color: #0f172a; 
+  color: #ffffff;
+  font-weight: 500;
+  border: 1px solid #334155; 
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.2s ease, transform 0.2s ease;
+  overflow: visible; 
+}
+
+.buttonContainer:hover {
+  background-color: #1e293b; 
+}
+
+.cornerBadge {
+  position: absolute;
+  top: -10px;   
+  left: -10px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  background-color: #4f46e5;
+  border: 2px solid #0f172a; 
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s ease;
+}
+.buttonContainer:hover .cornerBadge {
+  transform: scale(1.1);
+}
+
+.svgIcon {
+  width: 14px;
+  height: 14px;
+  color: #ffffff;
+}
+
