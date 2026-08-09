@@ -1,5 +1,6 @@
 import React from 'react';
 import './button.css';
+import hat from '../assets/hat.svg';
 
 export default function CornerSvgButton(props) {
   return (
