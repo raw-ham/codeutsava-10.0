@@ -13,8 +13,14 @@ import mainbg from '../assets/mainbg.jpeg';
 import { Link } from 'react-router-dom';
 
 export function About() {
+  
+  function fadeout() {
+    const homerroot = document.getElementById("homeroot");
+    homeroot.classList.add("fadeOut");
+  }
+
   return (
-    <div style={{backgroundImage: `url(${mainbg})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'center'}}>
+    <div id = "homeroot" style={{backgroundImage: `url(${mainbg})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'center'}}>
       <ParticleOverlay />
       <Navbar />
       <HeroSection/>

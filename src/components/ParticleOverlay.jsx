@@ -1,13 +1,13 @@
 import { useMemo } from 'react';
 import './ParticleOverlay.css';
-import hatImg from '../assets/bird.gif';
+import hatImg from '../assets/birdW.gif';
 
 function ParticleOverlay({ count = 10 }) {
   const particles = useMemo(() => {
     return Array.from({ length: count }, (_, i) => {
       const startY = window.innerHeight / 2 + Math.random() * window.innerHeight;
       const size = 24 + Math.random() * 50;
-      const duration = 64+ Math.random() * 24;
+      const duration = 32+ Math.random() * 24;
       const delay = Math.random() * 10;
       const opacity = 0.35 + Math.random() * 0.45;
       return {
