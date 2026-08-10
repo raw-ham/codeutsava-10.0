@@ -1,0 +1,92 @@
+h1{
+  font-size: 64px;
+  color: #ffffff;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+#guideline {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: #fd030300;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0 0 0;
+  padding: 0px;
+  overflow: visible;
+  z-index: 10;
+}
+
+#guidelineContainer {
+  position: relative;
+  background-color: #ffffff;
+  padding: 0px;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: visible;
+}
+
+.bookpageContainer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 30%;
+  height: 100%;
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bookpageText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  white-space: pre-wrap;
+  font-size: 14px;
+  color: #5b4242;
+  text-align: center;
+  margin-top: 25%;
+  margin-bottom: 25%;
+  padding: 0;
+  line-height: 24px;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+
+
+#rightBookpageContainer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: scaleX(-1);
+}
+
+#leftBookpageContainer {
+  bottom: 0;
+  left: 0;
+}
+
+#bookpage {
+  height: 100%;
+}
+
+
+#compassMap {
+  width: 80%;
+}

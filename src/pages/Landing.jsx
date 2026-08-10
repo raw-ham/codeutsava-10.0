@@ -16,8 +16,8 @@ function Landing() {
       <div className="landing-content">
         <h1 className="landing-title"> CodeUtsava 10.0 </h1>
         <div className="landing-buttons">
-          <CornerSvgButton onClick={toggleMusic} text = 'Play/Pause'></CornerSvgButton>
-          <CornerSvgButton onClick={() => window.location.href = '/about'} text = 'About'></CornerSvgButton>
+          <CornerSvgButton onClick={toggleMusic} icon="hat" text = 'Play/Pause'></CornerSvgButton>
+          <CornerSvgButton onClick={() => window.location.href = '/ab'} icon="hat" text = 'About'></CornerSvgButton>
         </div>
       </div>
     </div>

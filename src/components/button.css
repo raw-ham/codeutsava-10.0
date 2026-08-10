@@ -17,21 +17,43 @@
   background-color: #1e293b; 
 }
 
-.cornerBadge {
+
+.leftCornerBadge {
   position: absolute;
-  top: -10px;   
-  left: -10px; 
+  top: 0;   
+  left: 0; 
+  rotate: -30deg;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 24px;
-  height: 24px;
-  background-color: #4f46e5;
-  border: 2px solid #0f172a; 
+  width: 50px;
+  height: 50px;
+  transform: translate(0%,-50%);
+  background-color: #4e46e500;
+  border: 0px solid #0f172a; 
   border-radius: 50%;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
   transition: transform 0.2s ease;
 }
+
+.rightCornerBadge {
+  position: absolute;
+  top: 0;   
+  right: 0; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  transform: translate(25%,0%);
+  background-color: #4e46e500;
+  border: 0px solid #0f172a; 
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s ease;
+}
+
+
 .buttonContainer:hover .cornerBadge {
   transform: scale(1.1);
 }
