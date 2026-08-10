@@ -8,20 +8,19 @@ import parchment from '../assets/parchment.jpeg';
 import sponsor from '../assets/sponsors.png';
 
 const premiumSponsors = [
-  "/sponsors/sponsor1.png",
-  "/sponsors/sponsor2.png",
-  "/sponsors/sponsor3.png",
-  "/sponsors/sponsor4.png",
-  "/sponsors/sponsor5.png",
-  "/sponsors/sponsor1.png",
-  "/sponsors/sponsor2.png",
-  "/sponsors/sponsor3.png",
-  "/sponsors/sponsor4.png",
-  "/sponsors/sponsor5.png",
-
-  "/sponsors/sponsor3.png",
-  "/sponsors/sponsor4.png",
-  "/sponsors/sponsor5.png",
+  "../assets/jslogo.png",
+  "../assets/jslogo.png",
+  "../assets/jslogo.png",
+  "../assets/jslogo.png",
+  "../assets/jslogo.png",
+  "../assets/jslogo.png",
+  "../assets/jslogo.png",
+  "../assets/jslogo.png",
+  "../assets/jslogo.png",
+  "../assets/jslogo.png",
+  "../assets/jslogo.png",
+  "../assets/jslogo.png",
+  "../assets/jslogo.png",
 ];
 
 const silverSponsors = [

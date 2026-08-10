@@ -18,3 +18,115 @@
   box-shadow: 0 0 150px rgba(0, 0, 0, 0.8);
   border : 10px dashed #ffffff;
 }
+
+#timelinecontainer{
+  position: relative;
+  background-color: #ca0808cb;
+  padding: 20px;
+  width: 100%;
+  height: 50%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.badgecontainer{
+  position: relative;
+  background-color: #ffffff7d;
+  width: 20%;
+  height: 100%;
+}
+
+#badge{
+  transform: rotate(0deg);
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.evenbadge{
+  position: absolute;
+  top: 10%;
+}
+
+
+
+
+#absolutecontainerone{
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(0%, -50%);
+    width: 50%;
+}
+
+#absolutecontainertwo{
+    position: absolute;
+    top: 75%;
+    left: 0%;
+    transform: translate(0%, 25%);
+    width: 50%;
+    z-index: 3;
+}
+
+#absolutecontainerthree{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    transform: translate(25%, 50%);
+    width: 50%;
+    z-index: 3;
+}
+
+#absolutecontainerfour{
+    position: absolute;
+    top: 75%;
+    left: 0%;
+    transform: translate(0%, -50%);
+    width: 50%;
+}
+
+#badgedatecontainer{
+  position: relative;
+  width: 100%;
+
+}
+
+#badgedate{
+  width: 100%;
+}
+
+#badgetext{
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 12x;
+  color: #000000;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.badgetextcontainer{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  max-height: 50%;
+  background-color: red;
+  overflow: auto;
+  z-index: 10;
+  font-size: 4x;
+}
+
+.badgeinnertext{
+  padding: 20px;
+  font-size: 4x;
+  color: #ffffff;
+}
+

@@ -9,7 +9,7 @@ import Timeline from '../components/timeline.jsx';
 import Guideline from '../components/guideline.jsx';
 import FAQSection from '../components/faq.jsx';
 import Footer from '../components/footer.jsx';
-import mainbg from '../assets/mainbg.jpeg';
+import mainbg from '../assets/mainbg.gif';
 import { Link } from 'react-router-dom';
 
 export function About() {
