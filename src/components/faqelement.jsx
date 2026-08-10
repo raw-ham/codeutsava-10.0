@@ -6,15 +6,13 @@ import { Link } from 'react-router-dom';
 
 function FAQSection() {
     return (
-        <div id="faqdiv" >
+        <div id="rfaqdiv" >
             <div id="rightfaqdiv">
                 <img id="rightfaqimg" src={faqsheet} alt="faqsheet" />
                 <p id="rightfaqtext">
                     Frequently Asked Questions
                 </p>
             </div>
-
-
         </div>
     );
 }

@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import './navbar.css';
 import logo1 from '../assets/1.png';
 import logo2 from '../assets/2.png';
+import Button from '../components/button';
 
 function Navbar() {
   const [visible, setVisible] = useState(false);

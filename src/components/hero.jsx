@@ -14,7 +14,7 @@ function HeroSection() {
         <img id="codeutsava" src={codeutsava} alt="banner" />
       </div>  
       <h3>Code Inovate Celebrate </h3>
-      <Button text="Join Discord and toher" icon="hat"></Button> 
+      <Button text="Join Discord Community" icon="hat"></Button> 
       <Button text="Register on Devfolio" icon="ship"></Button> 
       
     </div>

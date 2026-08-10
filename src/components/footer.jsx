@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom";
 import "./footer.css";
-
+import water from "../assets/water.gif";
 import NIT from "../assets/NIT.webp";
 import tcpName from "../assets/1.png";
 import codeutsava from "../assets/2.png";
+import ship from "../assets/ship.gif";
 
 const CONTACT_FORM_URL =
     "https://docs.google.com/forms/d/e/1FAIpQLSfHv8OJ7jkp9thPyPx1HrWJNPoGZ2z7FaFtIqpz7lO3dIqqgg/viewform?pli=1";
@@ -27,7 +28,7 @@ function smoothScrollTo(targetSelector) {
 
 const Footer = () => {
     return (
-        <footer className="footer">
+        <footer className="footer" style={{ backgroundImage: `url(${water})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'center'}}>
             <div className="footer-inner">
                 <div className="footer-top">
                     <div className="footer-logos">
@@ -42,6 +43,13 @@ const Footer = () => {
                             alt="TCP Logo"
                             loading="lazy"
                             className="footer-logo footer-logo-tcp"
+                        />
+                        <img
+                            src={ship}
+                            alt="Ship Logo"
+                            loading="lazy"
+                            className="footer-logo footer-logo-ship"
+                            style={{ width: '100px', height: '100px' }}
                         />
                     </div>
 

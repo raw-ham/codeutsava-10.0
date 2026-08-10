@@ -4,25 +4,10 @@ import CornerSvgButton from '../components/button.jsx';
 import wanderingship from '../assets/wanderingship.gif';
 import codeutsava from '../assets/codeutsava.png';
 import water from '../assets/waterIN.gif';
+import { useAudio } from '../components/audioplayer';
 
-
-function App() {
-
-
-  return (
-    <>
-      <button >
-        Toggle
-      </button>
-
-      {enabled && <div className="myElement">Hello</div>}
-    </>
-  );
-}
 
 function Landing() {
-
-
 
   function toggleWater() {
     const root = document.getElementById('landingroot');
@@ -39,6 +24,8 @@ function Landing() {
     if (isPlaying) { audioRef.current.pause(); console.log('pause'); }
     else { audioRef.current.play(); console.log('play'); } setIsPlaying(!isPlaying);
   };
+  
+  const { issPlaying, togglePlay } = useAudio();
 
 
 
@@ -53,7 +40,7 @@ function Landing() {
           <img id="cu10logo" src={codeutsava} alt="logo" />
         </div>
         <div className="landing-buttons">
-          <CornerSvgButton onClick={toggleMusic} icon="hat" text='Play/Pause'></CornerSvgButton>
+          <CornerSvgButton onClick={togglePlay} icon="hat" text='Play/Pause'></CornerSvgButton>
           <CornerSvgButton onClick={toggleWater} icon="hat" text='togglw'></CornerSvgButton>
         </div>
       </div>
