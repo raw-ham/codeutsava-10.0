@@ -5,13 +5,19 @@ import wheel from '../assets/wheel.jpeg';
 import banner from '../assets/heroBanner.jpeg';
 import Button from '../components/button';
 import compassMap from '../assets/compass-map.gif';
-import bookpage from '../assets/bookpage.jpeg';
+import bookpage from '../assets/bookpage.png';
+import guideline from '../assets/guideline.png';
 
 function Guideline() {
   return (
     <div id="guideline" >
       <div id="guidelineContainer">
         <img id="compassMap" src={compassMap} alt="compassMap" />
+
+        <div id="guidelineText">
+          <img src={guideline} alt="" />
+        </div>
+
         <div className="bookpageContainer" style={{ top: '0%', right: '0%', transform:'translate(50%, -50%)' }}>
           <img id="bookpage" src={bookpage} alt="bookpage" />
           <p className="bookpageText">Guideline #1</p>

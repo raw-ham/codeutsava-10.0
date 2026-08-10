@@ -2,15 +2,16 @@
 .buttonContainer {
   position: relative; 
   padding: 12px 24px;
-  background-color: #0f172a; 
+  background-color: #4d3504; 
   color: #ffffff;
   font-weight: 500;
-  border: 1px solid #334155; 
+  border: 1px solid #93660d; 
   border-radius: 12px;
   cursor: pointer;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
   transition: background-color 0.2s ease, transform 0.2s ease;
   overflow: visible; 
+  margin: 5px;
 }
 
 .buttonContainer:hover {

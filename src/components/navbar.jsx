@@ -11,7 +11,7 @@ function Navbar() {
 
   return (
     <>
-      <nav className="navbar">
+      <nav className="navbar" >
         <div className="navbar-inner">
           <div className="navbar-logos">
             <Link to="/" className="navbar-logo-link" onClick={closeOffcanvas}>

@@ -7,11 +7,12 @@ import AboutUs from '../components/AboutUs.jsx';
 import Sponsors from '../components/Sponsors.jsx';
 import Timeline from '../components/timeline.jsx';
 import Guideline from '../components/guideline.jsx';
+import FAQSection from '../components/faq.jsx';
 import Footer from '../components/footer.jsx';
 import mainbg from '../assets/mainbg.jpeg';
 import { Link } from 'react-router-dom';
 
-function About() {
+export function About() {
   return (
     <div style={{backgroundImage: `url(${mainbg})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'center'}}>
       <ParticleOverlay />
@@ -21,6 +22,7 @@ function About() {
       <Sponsors />
       <Timeline />
       <Guideline />
+      <FAQSection />  
       <Footer />
     </div>
   );

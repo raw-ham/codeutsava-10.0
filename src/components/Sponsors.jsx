@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom';
 import wheel from '../assets/wheel.png';
 import banner from '../assets/banner.jpeg';
 import Button from '../components/button';
+import parchment from '../assets/parchment.jpeg';
+import sponsor from '../assets/sponsors.png';
 
 const premiumSponsors = [
   "/sponsors/sponsor1.png",
@@ -38,18 +40,18 @@ function Sponsors() {
             <div id="rightWheelContainer">
                 <img id="rightWheel" src={wheel} alt="wheel" />
             </div>
-            <h1>Sponsors</h1>
-            <div id="premiumSponsorsContainer">
+            <div id="sponsorstext">
+                <img id="sponsorimg" src={sponsor} alt="sponsor" />
+            </div>
+            <div id="premiumSponsorsContainer" >
                 <p>Premium Sponsors</p>
                 <div className="sponsors-track">
-                    {/* First set */}
                     {premiumSponsors.map((logo, index) => (
                       <div className="sponsor" key={`first-${index}`}>
                         <img src={logo} alt={`Sponsor ${index + 1}`} />
                       </div>
                     ))}
 
-                    {/* Duplicate set for seamless loop */}
                     {premiumSponsors.map((logo, index) => (
                       <div className="sponsor" key={`second-${index}`}>
                         <img src={logo} alt="" aria-hidden="true" />
