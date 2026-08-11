@@ -2,9 +2,11 @@
 
 This repository contains the source code for the **CodeUtsava** web application, developed as a submission for the **CodeUtsava10** project. This initiative forms part of the technical domain recruitment process for the **Turing Club of Programmers (TCP), NIT Raipur**.
 
-**NOTE #1:** Some heavy assets in this repository are replaced with light versions for deployment purposes , which were used in local development and video demonstration.
+**NOTE #1:** AI is used to generate SOME assets and perform repetitive tasks for productive development only , its not used for any other purpose and it's not fully vibe coded.
 
-**NOTE #2:** Audio was not included in the video demonstration due to technical constraints but is audible in the deployed website.
+**NOTE #2:** Some heavy assets in this repository are replaced with light versions for deployment purposes , which were used in local development and video demonstration.
+
+**NOTE #3:** Audio was not included in the video demonstration due to technical constraints but is audible in the deployed website.
 
 ---
 
