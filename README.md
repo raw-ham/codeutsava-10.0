@@ -2,12 +2,16 @@
 
 This repository contains the source code for the **CodeUtsava** web application, developed as a submission for the **CodeUtsava10** project. This initiative forms part of the technical domain recruitment process for the **Turing Club of Programmers (TCP), NIT Raipur**.
 
+**NOTE #1:** Some heavy assets in this repository are replaced with light versions for deployment purposes , which were used in local development and video demonstration.
+
+**NOTE #2:** Audio was not included in the video demonstration due to technical constraints but is audible in the deployed website.
+
 ---
 
 ## 1. Deployment and Demonstration
 
-* **Live Deployment:** Access the production environment via the following link: [https://codeutsava-10-0-13mt.vercel.app/]
-* **Video Demonstration:** : [Video Link / Embed]
+* **Live Deployment:** Access the production environment via the following link: [Live Deployment](https://codeutsava-10-0-13mt.vercel.app/)
+* **Video Demonstration:** : [[Video Link / Embed](https://drive.google.com/file/d/1GXTp62d_zReY0pTte-OyIoAqs-1IL-Li/view?usp=sharing)]
 
 ---
 
