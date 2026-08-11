@@ -10,9 +10,7 @@ import { useAudio } from '../components/audioplayer';
 function Landing() {
 
   function toggleWater() {
-    const root = document.getElementById('landingroot');
-    root.classList.add('fadeIn');
-    console.log("was here");
+    setEnabled(!enabled);
     setTimeout(() => {
       window.location.href = '/about';
     }, 2000);
@@ -40,8 +38,8 @@ function Landing() {
           <img id="cu10logo" src={codeutsava} alt="logo" />
         </div>
         <div className="landing-buttons">
-          <CornerSvgButton onClick={togglePlay} icon="hat" text='Play/Pause'></CornerSvgButton>
-          <CornerSvgButton onClick={toggleWater} icon="hat" text='togglw'></CornerSvgButton>
+          <CornerSvgButton onClick={toggleWater} icon="hat" text='Enter main page'></CornerSvgButton>
+          <CornerSvgButton onClick={togglePlay} icon="ship" text='♫'></CornerSvgButton>
         </div>
       </div>
     </div>

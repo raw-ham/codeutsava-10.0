@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
-import About from "./pages/About";
+import Home from "./pages/Home";
 import Landing from "./pages/Landing";
 import { AudioProvider , useAudio} from "./components/audioplayer";
 
@@ -12,7 +12,7 @@ function App() {
       <AudioProvider>
         <Routes>
           <Route path="/" element={<Landing />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/about" element={<Home />} />
         </Routes>
       </AudioProvider>
     </BrowserRouter>

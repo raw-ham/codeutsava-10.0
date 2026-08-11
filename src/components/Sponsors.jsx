@@ -6,6 +6,8 @@ import banner from '../assets/banner.jpeg';
 import Button from '../components/button';
 import parchment from '../assets/parchment.jpeg';
 import sponsor from '../assets/sponsors.png';
+import jslogo from '../assets/jslogo.png';
+import rel from '../assets/reliance.png';
 
 const premiumSponsors = [
   "../assets/jslogo.png",
@@ -43,40 +45,14 @@ function Sponsors() {
                 <img id="sponsorimg" src={sponsor} alt="sponsor" />
             </div>
             <div id="premiumSponsorsContainer" >
-                <p>Premium Sponsors</p>
-                <div className="sponsors-track">
-                    {premiumSponsors.map((logo, index) => (
-                      <div className="sponsor" key={`first-${index}`}>
-                        <img src={logo} alt={`Sponsor ${index + 1}`} />
-                      </div>
-                    ))}
-
-                    {premiumSponsors.map((logo, index) => (
-                      <div className="sponsor" key={`second-${index}`}>
-                        <img src={logo} alt="" aria-hidden="true" />
-                      </div>
-                    ))}
-                  </div>
+                <img src={rel} alt="jslogo" />
+                <img src={rel} alt="jslogo" />
+                <img src={jslogo} alt="jslogo" />
+                <img src={jslogo} alt="jslogo" />
+                
             </div>
 
-            <div id="silverSponsorsContainer">
-                <p>Silver Sponsors</p>
-                <div className="sponsors-track">
-                    {/* First set */}
-                    {silverSponsors.map((logo, index) => (
-                      <div className="sponsor" key={`first-${index}`}>
-                        <img src={logo} alt={`Sponsor ${index + 1}`} />
-                      </div>
-                    ))}
-
-                    {/* Duplicate set for seamless loop */}
-                    {silverSponsors.map((logo, index) => (
-                      <div className="sponsor" key={`second-${index}`}>
-                        <img src={logo} alt="" aria-hidden="true" />
-                      </div>
-                    ))}
-                  </div>
-            </div>
+            
 
         </div>
     );

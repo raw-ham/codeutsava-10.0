@@ -25,13 +25,26 @@
   width: 75%;
 }
 
+#rightfaqheading {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, 100%);
+  font-size: 26px;
+  color: #792c00;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+
 #rightfaqtext {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-  font-size: 32px;
-  color: #000000;
+  font-size: 20px;
+  color: #30240a;
   text-align: center;
   margin: 0;
   padding: 0;

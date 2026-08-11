@@ -4,13 +4,14 @@ import './faqelement.css';
 import { Link } from 'react-router-dom';
 
 
-function FAQSection() {
+function FAQSection(props) {
     return (
-        <div id="rfaqdiv" >
+        <div id="rfaqdiv" {...props}>
             <div id="rightfaqdiv">
                 <img id="rightfaqimg" src={faqsheet} alt="faqsheet" />
+                <h1 id="rightfaqheading">{props.heading}</h1>
                 <p id="rightfaqtext">
-                    Frequently Asked Questions
+                    {props.text}
                 </p>
             </div>
         </div>

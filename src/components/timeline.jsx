@@ -3,8 +3,8 @@ import './timeline.css';
 import { Link } from 'react-router-dom';
 import Button from '../components/button';
 import line from '../assets/line.gif';
-import timelinebadge from '../assets/timelineBadge.jpeg';
-import timelinebadgedate from '../assets/timelineBadgeDate.jpeg';
+import timelinebadge from '../assets/timelineBadge.png';
+import timelinebadgedate from '../assets/timelineBadgeDate.png';
 
 
 function Timeline() {
@@ -17,7 +17,7 @@ function Timeline() {
                     <div id="absolutecontainerone">
                         <div id="badgedatecontainer">
                             <img id="badgedate" src={timelinebadgedate} alt="timeline badge date" />
-                            <p id="badgetext">2023-01-01</p>
+                            <p id="badgetext">2026-01-10</p>
                         </div>
                     </div>
                     <div className='badgetextcontainer'>
@@ -29,7 +29,7 @@ function Timeline() {
                     <div id="absolutecontainertwo">
                         <div id="badgedatecontainer">
                             <img id="badgedate" src={timelinebadgedate} alt="timeline badge date" />
-                            <p id="badgetext">2023-01-01</p>
+                            <p id="badgetext">2026-03-10</p>
                         </div>
                     </div>
                     <div className='badgetextcontainer'>
@@ -41,8 +41,11 @@ function Timeline() {
                     <div id="absolutecontainerthree">
                         <div id="badgedatecontainer">
                             <img id="badgedate" src={timelinebadgedate} alt="timeline badge date" />
-                            <p id="badgetext">2023-01-01</p>
+                            <p id="badgetext">2026-05-10</p>
                         </div>
+                    </div>
+                    <div className='badgetextcontainer'>
+                        <p className='badgeinnertext'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio beatae aperiam atque iusto vel provident quis. Nemo porro quod minima necessitatibus nobis omnis, voluptatibus commodi maiores ipsam velit totam suscipit!</p>
                     </div>
                 </div>
                 <div className="badgecontainer">
@@ -50,8 +53,11 @@ function Timeline() {
                     <div id="absolutecontainerfour">
                         <div id="badgedatecontainer">
                             <img id="badgedate" src={timelinebadgedate} alt="timeline badge date" />
-                            <p id="badgetext">2023-01-01</p>
+                            <p id="badgetext">2026-07-10</p>
                         </div>
+                    </div>
+                    <div className='badgetextcontainer'>
+                        <p className='badgeinnertext'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio beatae aperiam atque iusto vel provident quis. Nemo porro quod minima necessitatibus nobis omnis, voluptatibus commodi maiores ipsam velit totam suscipit!</p>
                     </div>
                 </div>
             </div>

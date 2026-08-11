@@ -4,6 +4,7 @@ import './navbar.css';
 import logo1 from '../assets/1.png';
 import logo2 from '../assets/2.png';
 import Button from '../components/button';
+import navbarbg from '../assets/navbarbg.jpeg';
 
 function Navbar() {
   const [visible, setVisible] = useState(false);

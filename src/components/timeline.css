@@ -19,9 +19,17 @@
   border : 10px dashed #ffffff;
 }
 
+#timeline h1 {
+  color: #792c00;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  z-index: 1;
+}
+
 #timelinecontainer{
   position: relative;
-  background-color: #ca0808cb;
+  background-color: #ca4f082d;
   padding: 20px;
   width: 100%;
   height: 50%;
@@ -30,11 +38,12 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  border: 1px dashed #ffffff;
 }
 
 .badgecontainer{
   position: relative;
-  background-color: #ffffff7d;
+  background-color: #ffffff00;
   width: 20%;
   height: 100%;
 }
@@ -118,7 +127,7 @@
   transform: translate(-50%, -50%);
   width: 60%;
   max-height: 50%;
-  background-color: red;
+  background-color: rgba(255, 0, 0, 0);
   overflow: auto;
   z-index: 10;
   font-size: 4x;
@@ -127,6 +136,6 @@
 .badgeinnertext{
   padding: 20px;
   font-size: 4x;
-  color: #ffffff;
+  color: #452e00;
 }
 
