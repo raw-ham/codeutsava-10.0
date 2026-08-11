@@ -2,8 +2,6 @@ import React from 'react';
 import './Sponsors.css';
 import { Link } from 'react-router-dom';
 import wheel from '../assets/wheel.png';
-import banner from '../assets/banner.jpeg';
-import Button from '../components/button';
 import parchment from '../assets/parchment.jpeg';
 import sponsor from '../assets/sponsors.png';
 import jslogo from '../assets/jslogo.png';

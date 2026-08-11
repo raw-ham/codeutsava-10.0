@@ -1,9 +1,6 @@
 import React from 'react';
 import './guideline.css';
 import { Link } from 'react-router-dom';
-import wheel from '../assets/wheel.jpeg';
-import banner from '../assets/heroBanner.jpeg';
-import Button from '../components/button';
 import compassMap from '../assets/compass-map.gif';
 import bookpage from '../assets/bookpage.png';
 import guideline from '../assets/guideline.png';
